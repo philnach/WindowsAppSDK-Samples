@@ -454,6 +454,10 @@ extendedZipContent:
 ---
 ```
 
+#### Dependencies
+
+To [safeguard against malicious public packages](https://learn.microsoft.com/azure/devops/artifacts/concepts/upstream-behavior), an ADO Artifact Feed is used as this project's package source. Updating NuGet package dependencies may require saving the new package version to the package source [https://dev.azure.com/shine-oss/WinAppSDK-Samples/_artifacts/feed/WinAppSDK-SampleDeps](https://dev.azure.com/shine-oss/WinAppSDK-Samples/_artifacts/feed/WinAppSDK-SampleDeps) following the instructions at [https://learn.microsoft.com/azure/devops/artifacts/how-to/search-upstream?view=azure-devops#save-packages](https://learn.microsoft.com/azure/devops/artifacts/how-to/search-upstream?view=azure-devops#save-packages). 
+
 ## Sample Templates
 
 Any new C#/C++ WinUI-based samples should use the [WinUI 3 sample templates](../Templates). You can download the template VSIX file under the Github releases [here](https://github.com/microsoft/WindowsAppSDK-Samples/releases) in this repo, under the "Assets" section. The templates provide a scenario-based structure and ensure consistent UI and coding standards across WinUI samples.
