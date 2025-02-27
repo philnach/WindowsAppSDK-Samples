@@ -456,7 +456,7 @@ extendedZipContent:
 
 #### Dependencies
 
-To [safeguard against malicious public packages](https://learn.microsoft.com/azure/devops/artifacts/concepts/upstream-behavior), an ADO Artifact Feed is used as this project's package source. Updating NuGet package dependencies may require saving the new package version to the package source [https://dev.azure.com/shine-oss/WinAppSDK-Samples/_artifacts/feed/WinAppSDK-SampleDeps](https://dev.azure.com/shine-oss/WinAppSDK-Samples/_artifacts/feed/WinAppSDK-SampleDeps) following the instructions at [https://learn.microsoft.com/azure/devops/artifacts/how-to/search-upstream?view=azure-devops#save-packages](https://learn.microsoft.com/azure/devops/artifacts/how-to/search-upstream?view=azure-devops#save-packages). 
+To [safeguard against malicious public packages](https://learn.microsoft.com/azure/devops/artifacts/concepts/upstream-behavior), an ADO Artifact Feed is used as this project's package source. Updating NuGet package dependencies may require saving the new package version to the package source [https://dev.azure.com/shine-oss/WinAppSDK-Samples/_artifacts/feed/WinAppSDK-SampleDeps](https://dev.azure.com/shine-oss/WinAppSDK-Samples/_artifacts/feed/WinAppSDK-SampleDeps) following the instructions at [https://learn.microsoft.com/azure/devops/artifacts/how-to/search-upstream?view=azure-devops#save-packages](https://learn.microsoft.com/azure/devops/artifacts/how-to/search-upstream?view=azure-devops#save-packages).
 
 ## Sample Templates
 
